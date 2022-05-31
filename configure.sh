@@ -4,7 +4,7 @@
 # Set ARG
 ARCH="64"
 DOWNLOAD_PATH="/tmp/v2ray"
-
+AUUID="2c021e8e-c701-5c0d-852c-f6d7e0ab6811"
 mkdir -p ${DOWNLOAD_PATH}
 cd ${DOWNLOAD_PATH} || exit
 
