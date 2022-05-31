@@ -1,4 +1,4 @@
-name: ci
+name: camptein
 
 on:
   workflow_dispatch:
