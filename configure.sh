@@ -58,7 +58,7 @@ cat << EOF > /conf/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "$AUUID"
+                        "id": "a8fef338-0d8d-4606-a2f9-2c39b90e6e4d"
                     }
                 ],
                 "disableInsecureEncryption": true
@@ -67,7 +67,7 @@ cat << EOF > /conf/config.json
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$AUUID-vmess"
+                  "path": "/a8fef338-0d8d-4606-a2f9-2c39b90e6e4d-vmess"
                 }
             },
             "sniffing": {
@@ -84,7 +84,7 @@ cat << EOF > /conf/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "$AUUID",
+                        "id": "a8fef338-0d8d-4606-a2f9-2c39b90e6e4d",
                         "level": 0,
                         "email": "love@v2fly.org"
                     }
@@ -95,7 +95,7 @@ cat << EOF > /conf/config.json
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$AUUID-vless"
+                  "path": "/a8fef338-0d8d-4606-a2f9-2c39b90e6e4d-vless"
                 }
             },
             "sniffing": {
@@ -121,7 +121,7 @@ cat << EOF > /conf/config.json
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/$AUUID-ss"
+                    "path": "/a8fef338-0d8d-4606-a2f9-2c39b90e6e4d-ss"
                 }
             },
             "sniffing": {
@@ -148,7 +148,7 @@ cat << EOF > /conf/config.json
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                  "path": "/$AUUID-socks"
+                  "path": "/a8fef338-0d8d-4606-a2f9-2c39b90e6e4d-socks"
                 }
             },
             "sniffing": {
@@ -176,7 +176,7 @@ cat << EOF > /conf/config.json
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$AUUID-trojan"
+                  "path": "/a8fef338-0d8d-4606-a2f9-2c39b90e6e4d-trojan"
                 }
             },
             "sniffing": {
