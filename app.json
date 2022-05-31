@@ -1,0 +1,13 @@
+{
+    "name": "camptein",
+    "description": "camptein",
+    "keywords": ["nodescribe"],
+    "env": {
+        "AUUID": {
+            "description": "生成UUID的网站: https://www.uuidgenerator.net",
+            "value": "a8fef338-0d8d-4606-a2f9-2c39b90e6e4d"
+        }
+    },
+    "repository": "",
+    "stack": "container"
+}
